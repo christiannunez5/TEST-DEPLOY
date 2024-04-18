@@ -3,7 +3,7 @@ import blogsRoutes from './routes/blogsRoutes.js'
 import usersRoutes from './routes/usersRoutes.js'
 import { config } from 'dotenv';
 import mongoose from 'mongoose';
-
+//
 config();
 const app = express();
 const port = process.env.PORT;
